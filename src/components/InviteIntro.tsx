@@ -42,10 +42,10 @@ export const InviteIntro: React.FC<InviteIntroProps> = ({ onOpen }) => {
           ॥ श्री गणेशाय नमः ॥
         </p>
 
-        <h1 className="mt-3 font-cinzel-dec text-4xl sm:text-5xl font-bold uppercase leading-tight gold-shimmer-text">
-          Shiv
-          <span className="font-cinzel"> &amp; </span>
-          Parvati
+        <h1 className="mt-3 font-cinzel-dec text-3xl sm:text-4xl font-bold uppercase leading-tight gold-shimmer-text flex flex-col items-center">
+          <span>Shiv</span>
+          <span className="font-cinzel text-lg sm:text-xl text-[#D4AF37] my-0.5 leading-none">&amp;</span>
+          <span>Parvati</span>
         </h1>
 
         <OrnamentalDivider color="#B8860B" className="my-4 max-w-[240px]" />

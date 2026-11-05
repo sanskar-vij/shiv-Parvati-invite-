@@ -79,10 +79,10 @@ export const Hero: React.FC<HeroProps> = ({ onOpenRSVP, onOpenVenue }) => {
           Together with divine blessings
         </p>
 
-        <h1 className="mt-3 sm:mt-4 font-cinzel-dec text-[2.6rem] sm:text-6xl lg:text-7xl font-bold uppercase leading-[1.08] gold-text-bright drop-shadow-[0_4px_20px_rgba(0,0,0,0.85)]">
-          Shiv
-          <span className="font-cinzel text-[#F2D06B]">&amp;</span>
-          Parvati
+        <h1 className="mt-3 sm:mt-4 font-cinzel-dec text-[2.2rem] sm:text-5xl lg:text-6xl font-bold uppercase leading-tight gold-text-bright drop-shadow-[0_4px_20px_rgba(0,0,0,0.85)] flex flex-col items-center">
+          <span>Shiv</span>
+          <span className="font-cormorant italic text-xl sm:text-3xl text-[#F2D06B] my-0.5 leading-none">&amp;</span>
+          <span>Parvati</span>
         </h1>
 
         <OrnamentalDivider color="#D4AF37" className="my-3 sm:my-4 max-w-[240px] sm:max-w-sm mx-auto opacity-90" />

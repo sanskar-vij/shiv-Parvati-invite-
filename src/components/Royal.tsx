@@ -109,10 +109,10 @@ export const RoyalMonogram: React.FC = () => (
         <CrownMotif size={13} />
       </span>
     </span>
-    <span className="hidden min-[420px]:block font-cinzel text-[8px] font-bold uppercase tracking-[0.2em] text-[#8A5D28] leading-relaxed">
-      Shiv &amp;
-      <br />
-      Parvati
+    <span className="hidden min-[420px]:flex flex-col font-cinzel text-[7.5px] font-bold uppercase tracking-[0.2em] text-[#8A5D28] leading-none">
+      <span>Shiv</span>
+      <span className="text-[7px] text-[#B8860B] my-[1.5px] leading-none">&amp;</span>
+      <span>Parvati</span>
     </span>
   </div>
 );

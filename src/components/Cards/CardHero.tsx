@@ -28,7 +28,7 @@ export const CardHero: React.FC<CardHeroProps> = ({ onClick, isDetailed = false 
       <div className="absolute bottom-2 right-2 z-10 w-4 h-4 border-b-2 border-r-2 border-[#B37E28] pointer-events-none" />
 
       {/* Main Artwork */}
-      <div className="relative w-full h-[76%] overflow-hidden">
+      <div className="relative w-full h-[71%] overflow-hidden">
         <img
           src="/images/card1_hero.jpg"
           alt="Shiv & Parvati - The Divine Wedding"
@@ -63,26 +63,34 @@ export const CardHero: React.FC<CardHeroProps> = ({ onClick, isDetailed = false 
       </div>
 
       {/* Bottom Parchment Title Block */}
-      <div className="relative h-[24%] w-full bg-[#FAF5EB] px-4 pt-1 pb-3 flex flex-col items-center justify-center text-center">
+      <div className="relative h-[29%] w-full bg-[#FAF5EB] px-4 pt-1.5 pb-2.5 flex flex-col items-center justify-center text-center">
         {/* Lotus Header Flourish */}
         <div className="flex items-center justify-center gap-1.5 mb-1">
-          <span className="h-[1px] w-6 bg-[#C29B38]/60" />
-          <LotusMotif size={22} color="#8A5D28" className="animate-lotus-breathe" />
-          <span className="h-[1px] w-6 bg-[#C29B38]/60" />
+          <span className="h-[0.5px] w-5 bg-[#C29B38]/60" />
+          <LotusMotif size={18} color="#8A5D28" className="animate-lotus-breathe" />
+          <span className="h-[0.5px] w-5 bg-[#C29B38]/60" />
         </div>
 
-        {/* Title */}
-        <h2 className="font-cinzel text-xl sm:text-2xl font-bold tracking-[0.18em] text-[#2C1810] drop-shadow-sm leading-tight uppercase">
-          SHIV & PARVATI
+        {/* Title — SHIV in one line, & in next line, PARVATI in next line */}
+        <h2 className="font-cinzel font-bold text-[#2C1810] drop-shadow-sm flex flex-col items-center justify-center uppercase leading-tight">
+          <span className="text-xl sm:text-2xl tracking-[0.22em]">
+            SHIV
+          </span>
+          <span className="text-sm sm:text-base text-[#8A5D28] tracking-[0.16em] my-0.5">
+            &amp;
+          </span>
+          <span className="text-xl sm:text-2xl tracking-[0.22em]">
+            PARVATI
+          </span>
         </h2>
 
         {/* Subtitle */}
-        <p className="font-cinzel text-[10px] sm:text-[11px] font-medium tracking-[0.28em] text-[#7A4F23] uppercase mt-1">
+        <p className="font-cinzel text-[9.5px] sm:text-[10.5px] font-medium tracking-[0.28em] text-[#7A4F23] uppercase mt-1.5">
           THE DIVINE WEDDING
         </p>
 
         {isDetailed && (
-          <p className="mt-2 text-xs text-[#5D3A1A] font-cormorant italic">
+          <p className="mt-1 text-xs text-[#5D3A1A] font-cormorant italic">
             Tap to view auspicious invitation details &amp; blessings
           </p>
         )}
