@@ -1,0 +1,414 @@
+export type CeremonyKey =
+  | 'roka'
+  | 'shagun'
+  | 'tilak'
+  | 'engagement'
+  | 'haldi'
+  | 'mayra'
+  | 'mehndi'
+  | 'cocktail'
+  | 'sangeet'
+  | 'baraat'
+  | 'varmala'
+  | 'wedding'
+  | 'pheras'
+  | 'vidai'
+  | 'reception';
+
+export interface CeremonyEvent {
+  key: CeremonyKey;
+  number: number;
+  name: string;
+  sanskrit: string;
+  phase: 'Pre-Wedding' | 'Festivities' | 'Wedding Day' | 'Post-Wedding';
+  day: string;
+  date: string;
+  time: string;
+  venue: string;
+  attire: string;
+  tagline: string;
+  blurb: string;
+  description: string;
+  image: string;
+  accent: string;
+  rituals: string[];
+  mantra: string;
+}
+
+export const ALL_15_EVENTS: CeremonyEvent[] = [
+  {
+    key: 'roka',
+    number: 1,
+    name: 'Roka',
+    sanskrit: 'रोका संस्कार (गठबंधन संकल्प)',
+    phase: 'Pre-Wedding',
+    day: 'Day 1',
+    date: 'Wednesday, 3 March 2027',
+    time: '9:00 AM · Brahma Muhurta',
+    venue: 'Himavan Palace Durbar, Mount Kailash Gateway',
+    attire: 'Sacred Crimson & Raw Ivory Silk',
+    tagline: 'Sealing the Auspicious Celestial Alliance',
+    blurb: 'King Himavat and the Sapta Rishis formalize the eternal alliance, presenting holy coconuts, betel leaves, and gemstones to Mahadev.',
+    description:
+      'The sacred ceremony marking the formal sealing of the alliance between the House of Himavat and Lord Shiva. Sages Agastya and Vashistha chant the auspicious Vedic Sankalpa, blessing the cosmic bride and groom with divine harmony.',
+    image: '/images/event_roka.jpg',
+    accent: 'from-[#8B1E2B]/45',
+    rituals: [
+      'Vedic Sankalpa invocation by Sage Vashistha & Narada Muni',
+      'Exchange of sacred Akshata (unbroken rice) & gold coins',
+      'Offering of dry fruits, Kashmiri saffron & Himalayan honey',
+      'Blessing of the cosmic bride and groom by elders of both realms',
+    ],
+    mantra: 'ॐ स्वस्ति न इन्द्रो वृद्धश्रवाः स्वस्ति नः पूषा विश्ववेदाः । स्वस्ति नस्तार्क्ष्यो अरिष्टनेमिः स्वस्ति नो बृहस्पतिर्दधातु ॥',
+  },
+  {
+    key: 'shagun',
+    number: 2,
+    name: 'Shagun',
+    sanskrit: 'शगुन व फलदान (सौभाग्य उपहार)',
+    phase: 'Pre-Wedding',
+    day: 'Day 1',
+    date: 'Wednesday, 3 March 2027',
+    time: '2:30 PM',
+    venue: 'Gauri Kund Pavilion, Sacred Foothills',
+    attire: 'Coral Peach & Sandalwood Brocade',
+    tagline: 'Gifts of Prosperity, Silver & Mountain Nectar',
+    blurb: 'The auspicious procession bearing royal silver platters of rare fruits, silk sarees, and temple jewelry for Goddess Parvati.',
+    description:
+      'Family members and devas present 108 silver thalis loaded with sacred treasures of the cosmos — Kashmiri walnuts, pomegranates, gold-woven silks, divine perfumes, and celestial ornaments consecrated at sacred shrines.',
+    image: '/images/event_shagun.jpg',
+    accent: 'from-[#B37E28]/45',
+    rituals: [
+      'Arrival of the Shagun procession led by Nandi & Deva attendants',
+      'Offering of 108 auspicious silver platters with sacred offerings',
+      'Anointing of Devi Parvati’s forehead with vermilion & gold dust',
+      'Auspicious shehnai & mangal dhun played by Gandharvas',
+    ],
+    mantra: 'ॐ श्रीं ह्रीं क्लीं महालक्ष्म्यै नमः । सर्वमङ्गलमाङ्गल्ये शिवे सर्वार्थसाधिके ॥',
+  },
+  {
+    key: 'tilak',
+    number: 3,
+    name: 'Tilak',
+    sanskrit: 'तिलक समर्पण (वर प्रतिष्ठा)',
+    phase: 'Pre-Wedding',
+    day: 'Day 1',
+    date: 'Wednesday, 3 March 2027',
+    time: '6:00 PM · Sandhya Kaal',
+    venue: 'Sanctum Shikhara, Mount Kailash',
+    attire: 'Royal Ruby & Gold Zari Angavastram',
+    tagline: 'Anointing the Groom with Sandalwood & Vibhuti',
+    blurb: 'King Himavat applies the sacred kumkum, chandan and akshata upon Lord Shiva’s forehead, formally honoring Him as the bridegroom.',
+    description:
+      'With great reverence, King Himavat and the royal Himalayan court travel to Mount Kailash. The groom is seated on a tiger-skin crystal asana and anointed with sacred Kashmiri saffron, Chandan, and vibhuti, presenting royal robes and the jewel-studded staff.',
+    image: '/images/event_tilak.jpg',
+    accent: 'from-[#7A1521]/45',
+    rituals: [
+      'Chanting of the Rudra Suktam and Shiva Ashtakam',
+      'Application of holy Kumkum and Sandalwood tilak on Mahadev',
+      'Presentation of ceremonial swords, shawls & golden ornaments',
+      'Distribution of auspicious laddus and holy prasad to all devas',
+    ],
+    mantra: 'ॐ त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम् । उर्वारुकमिव बन्धनान्मृत्योर्मुक्षीय मामृतात् ॥',
+  },
+  {
+    key: 'engagement',
+    number: 4,
+    name: 'Engagement',
+    sanskrit: 'सगाई व वाग्दान (मुद्रिका समर्पण)',
+    phase: 'Pre-Wedding',
+    day: 'Day 1',
+    date: 'Wednesday, 3 March 2027',
+    time: '8:30 PM',
+    venue: 'Chintamani Crystal Hall, Kailash',
+    attire: 'Midnight Sapphire & Diamond Zardozi',
+    tagline: 'Exchange of Sacred Celestial Rings & Vows',
+    blurb: 'Under a canopy of shimmering Himalayan constellations, Shiv and Parvati exchange consecrated rings and pledge eternal companionship.',
+    description:
+      'The cosmic ring exchange where Lord Shiva presents a sacred ring forged of celestial Chintamani jewel and Goddess Parvati places a sacred diamond band upon Mahadev’s finger. The heavens shower glowing Parijata petals.',
+    image: '/images/event_engagement.jpg',
+    accent: 'from-[#1E3A8A]/45',
+    rituals: [
+      'Purification of rings in holy Gangajal and Panchamrit',
+      'Ring exchange amidst Vedic chants of eternal union',
+      'Exchange of auspicious floral garlands and fragrant ittar',
+      'Grand celestial toast with fresh mountain juice & sweet delicacies',
+    ],
+    mantra: 'ॐ समानी व आकूतिः समाना हृदयानि वः । समानमस्तु वो मनो यथा वः सुसहासति ॥',
+  },
+  {
+    key: 'haldi',
+    number: 5,
+    name: 'Haldi',
+    sanskrit: 'हल्दी संस्कार (सौभाग्य लेपन)',
+    phase: 'Festivities',
+    day: 'Day 2',
+    date: 'Thursday, 4 March 2027',
+    time: '9:30 AM',
+    venue: 'Nandana Vana Courtyard, Kailash Foothills',
+    attire: 'Sunlit Turmeric Yellow & Saffron Silk',
+    tagline: 'Golden Turmeric, Sandalwood & Mountain Saffron',
+    blurb: 'Aromatic ubtan paste prepared with Himalayan turmeric and 7 holy rivers is joyously applied to the divine couple.',
+    description:
+      'The vibrant purification ceremony where divine ubtan made of wild mountain turmeric root, Kashmiri saffron, crushed sandalwood, and rose petals is applied to Shiva and Parvati by celestial sisters and apsaras, accompanied by festive folk songs.',
+    image: '/images/event_haldi.jpg',
+    accent: 'from-[#B8860B]/45',
+    rituals: [
+      'Mangala Snana with holy waters of 7 sacred celestial rivers',
+      'Application of radiant yellow Haldi paste with mango leaves',
+      'Showering of yellow marigold petals and fragrant floral mist',
+      'Traditional auspicious wedding folk songs and dhols',
+    ],
+    mantra: 'ॐ भूर्भुवः स्वः तत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि धियो यो नः प्रचोदयात् ॥',
+  },
+  {
+    key: 'mayra',
+    number: 6,
+    name: 'Mayra',
+    sanskrit: 'मायरा व भात (मातृकुल समर्पण)',
+    phase: 'Festivities',
+    day: 'Day 2',
+    date: 'Thursday, 4 March 2027',
+    time: '1:00 PM',
+    venue: 'Himavan Queen’s Palace Courtyard',
+    attire: 'Magenta, Bandhani & Gotapatti Silk',
+    tagline: 'Maternal Family Blessings & Royal Silk Gifts',
+    blurb: 'Devi Mena’s maternal family arrives with ceremonial chariots bearing royal wedding trousseau, jewels, and blessings.',
+    description:
+      'The heartfelt Mayra (Bhaat) ritual where maternal deities and uncles welcome Queen Mena and Goddess Parvati with traditional chunri, pure zari bridal silks, gold mangalsutras, and sweet mawa delicacies, ensuring immense prosperity for the wedding.',
+    image: '/images/event_mayra.jpg',
+    accent: 'from-[#9B1D50]/45',
+    rituals: [
+      'Grand royal reception of the maternal kin with Aarti & dhol',
+      'Draping of the auspicious red Mayra Chunri over the bride & mother',
+      'Presentation of bridal gold jewelry, silver anklets & silks',
+      'Sharing of traditional ghee sweets and royal feast',
+    ],
+    mantra: 'ॐ मातृभ्यो नमः । पितृभ्यो नमः । सर्वकुलेभ्यो मङ्गलं भवतु ॥',
+  },
+  {
+    key: 'mehndi',
+    number: 7,
+    name: 'Mehndi',
+    sanskrit: 'मेहंदी उत्सव (करकमल लेपन)',
+    phase: 'Festivities',
+    day: 'Day 2',
+    date: 'Thursday, 4 March 2027',
+    time: '3:30 PM',
+    venue: 'Parijata Garden Pavilion, Mount Kailash',
+    attire: 'Emerald Forest Green & Royal Gold Brocade',
+    tagline: 'Sacred Henna with Damru, Crescent Moon & Lotus',
+    blurb: 'Celestial artists adorn Parvati’s palms and feet with aromatic henna infused with cloves, eucalyptus, and cosmic symbols.',
+    description:
+      'A joyous afternoon of music and henna artistry. Goddess Parvati’s palms are delicately adorned with sacred iconography — the sacred Om, Shiva’s crescent moon, the Trishul, and blooming lotuses, hiding Mahadev’s name in the intricate lace.',
+    image: '/images/event_mehendi.jpg',
+    accent: 'from-[#0F5132]/45',
+    rituals: [
+      'Adornment of intricate bridal henna with eucalyptus and clove oil',
+      'Finding the hidden sacred initials amidst henna spirals',
+      'Apsaras performing classical Lasya and Ghoomar dances',
+      'Feast of sweet delicacies, ambrosial drinks, and fresh berries',
+    ],
+    mantra: 'ॐ श्रीं ह्रीं क्लीं ग्लौं गं गणपतये वर वरद सर्वजनं मे वशमानय स्वाहा ॥',
+  },
+  {
+    key: 'cocktail',
+    number: 8,
+    name: 'Cocktail',
+    sanskrit: 'अमृत सोम उत्सव (दिव्य सोइरी)',
+    phase: 'Festivities',
+    day: 'Day 2',
+    date: 'Thursday, 4 March 2027',
+    time: '7:00 PM',
+    venue: 'Glacial Lakeside Terraces, Lake Mansarovar',
+    attire: 'Glamorous Champagne Gold & Velvet Black',
+    tagline: 'Celestial Ambrosia, Soma Ras & Music Night',
+    blurb: 'An elegant twilight soirée beside Lake Mansarovar serving divine Soma Ras, nectar cocktails, and live jazz-fusion ragas.',
+    description:
+      'A glamorous evening celebration uniting devas, yakshas, and devotees with sparkling ambrosial cocktails, golden torches reflecting on the crystalline alpine lake, and enchanting fusion melodies under the Himalayan twilight.',
+    image: '/images/event_cocktail.jpg',
+    accent: 'from-[#3B1259]/45',
+    rituals: [
+      'Welcome toast with sparkling Soma Ras & Himalayan herbal elixir',
+      'Acoustic sitar & harp jugalbandi performances',
+      'Gourmet Himalayan cuisine & woodfired delicacies',
+      'Starlit bonfire and celestial toast to the divine couple',
+    ],
+    mantra: 'ॐ सोमाय नमः । अमृतं वै प्राणाः । आनन्दं ब्रह्मेति व्यजानात् ॥',
+  },
+  {
+    key: 'sangeet',
+    number: 9,
+    name: 'Sangeet',
+    sanskrit: 'गंधर्व संगीत व रास (महा आनन्दोत्सव)',
+    phase: 'Festivities',
+    day: 'Day 2',
+    date: 'Thursday, 4 March 2027',
+    time: '9:30 PM Onwards',
+    venue: 'Mansarovar Grand Amphitheatre',
+    attire: 'Midnight Royal Blue & Shimmering Silver Zari',
+    tagline: 'Gandharva Symphony, Sitar Jugalbandi & Tandava',
+    blurb: 'Gandharvas play divine veenas, Narada strums his tambura, and Lord Shiva performs the joyful Ananda Tandava.',
+    description:
+      'The grand musical extravaganza celebrating eternal love. Families engage in friendly musical antakshari, celestial apsaras perform classical dance dramas recounting the Shiva-Parvati story, and all cosmos dances in boundless joy.',
+    image: '/images/event_sangeet.jpg',
+    accent: 'from-[#1E3A8A]/45',
+    rituals: [
+      'Gandharva symphony featuring Veena, Mridangam & Bansuri',
+      'Dance performances by Deva & Himavan families',
+      'Grand performance of the gentle Ananda Tandava by Mahadev',
+      'Mid-night full-moon Aarti and celebratory sweet prasad',
+    ],
+    mantra: 'कर्पूरगौरं करुणावतारं संसारसारम् भुजगेन्द्रहारम् । सदावसन्तं हृदयारविन्दे भवं भवानीसहितं नमामि ॥',
+  },
+  {
+    key: 'baraat',
+    number: 10,
+    name: 'Baraat',
+    sanskrit: 'महादेव की दिव्य बारात (वर यात्रा)',
+    phase: 'Wedding Day',
+    day: 'Day 3',
+    date: 'Saturday, 6 March 2027',
+    time: '4:00 PM',
+    venue: 'From Kailash Sanctum to Himavan Palace Gates',
+    attire: 'Regal Ivory Silk Sherwani, Gold Dhoti & Royal Safa',
+    tagline: 'Cosmic Procession of Devas, Rishis, Nandi & Ganas',
+    blurb: 'Lord Shiva rides the sacred bull Nandi accompanied by Brahma, Vishnu, Indra, ganas, and dancing ascetics.',
+    description:
+      'The most magnificent wedding procession in cosmic history. Mahadev, radiantly handsome with the crescent moon glowing in his locks, rides decorated Nandi bull, flanked by Lord Vishnu on Garuda, Lord Brahma on Hamsa, celestial elephants, and joyous dancing Ganas.',
+    image: '/images/event_baraat.jpg',
+    accent: 'from-[#8B1E2B]/50',
+    rituals: [
+      'Groom mount ceremony on the sacred flower-adorned bull Nandi',
+      'Procession with beating nagadas, conch shells & divine trumpets',
+      'Grand reception (Toran Dwar Dwarika) by Queen Mena & King Himavat',
+      'Dhukav ritual with camphor aarti and sweet milk offering',
+    ],
+    mantra: 'ॐ नन्दीश्वराय विद्महे वृषभारूढाय धीमहि तन्नो रुद्रः प्रचोदयात् ॥ ॐ नमः शिवाय ॥',
+  },
+  {
+    key: 'varmala',
+    number: 11,
+    name: 'Varmala',
+    sanskrit: 'वरमाला व जयमाला (कमल माला समर्पण)',
+    phase: 'Wedding Day',
+    day: 'Day 3',
+    date: 'Saturday, 6 March 2027',
+    time: '6:15 PM · Godhuli Vela',
+    venue: 'Celestial Stage, Himavan Royal Gardens',
+    attire: 'Bridal Crimson Lehenga & Ivory Royal Silk Angavastram',
+    tagline: 'Sacred Floral Garland Exchange Under Flower Shower',
+    blurb: 'Amidst raining Parijata petals, Shiv and Parvati garland each other, declaring their eternal cosmic choice.',
+    description:
+      'As the sun sets over the snowy peaks, Lord Shiva and Goddess Parvati meet on the flower-decked elevated mandap. With smiles of boundless devotion, they exchange celestial white lotus and red rose garlands while devas sound the Dundubhi drums.',
+    image: '/images/event_varmala.jpg',
+    accent: 'from-[#C29B38]/50',
+    rituals: [
+      'Elevation of bride and groom on rotating lotus pedestals',
+      'Exchange of sacred fragrant 108-lotus Varmala garlands',
+      'Pushpa Vrishti (Shower of 100,000 celestial flowers from the heavens)',
+      'Aarti by seven revered celestial matrikas',
+    ],
+    mantra: 'ॐ मङ्गलम् भगवान विष्णुः मङ्गलम् गरुडध्वजः । मङ्गलम् पुण्डरीकाक्षः मङ्गलाय तनो हरिः ॥',
+  },
+  {
+    key: 'wedding',
+    number: 12,
+    name: 'Wedding',
+    sanskrit: 'महा विवाह संस्कार (कन्यादान व पाणिग्रहण)',
+    phase: 'Wedding Day',
+    day: 'Day 3',
+    date: 'Saturday, 6 March 2027',
+    time: '6:45 PM · Amrit Kaal',
+    venue: 'Sanctum Sanctorum Golden Mandap, Mount Kailash',
+    attire: 'Pure Gold Zari Crimson Lehenga & Pitambar Silk Dhoti',
+    tagline: 'Vedic Vivaha Sanctified by Brahma, Vishnu & Agni',
+    blurb: 'Lord Brahma officiates as chief priest, Lord Vishnu performs Kanyadaan, and the cosmic wedding vows are solemnized.',
+    description:
+      'The supreme Vedic ceremony where King Himavat and Queen Mena, alongside Lord Vishnu and Goddess Lakshmi, bestow Devi Parvati’s hand upon Lord Shiva in Kanyadaan. Lord Shiva holds Parvati’s hand in Panigrahana with eternal reverence.',
+    image: '/images/event_wedding.jpg',
+    accent: 'from-[#8B1E2B]/55',
+    rituals: [
+      'Gauri Puja and Agni Sthapana by Lord Brahma with sacred samidha',
+      'Kanyadaan performed by King Himavat and Lord Vishnu',
+      'Panigrahana — Mahadev taking Parvati’s right hand in eternal vow',
+      'Granthibandhan (Holy Knot tying) with golden silk uttariya',
+    ],
+    mantra: 'गृभ्णामि ते सौभगत्वाय हस्तं मया पत्या जरदष्टिर्यथासः । भगो अर्यमा सविता पुरन्धिर्मह्यं त्वादुर्गार्हपत्याय देवाः ॥',
+  },
+  {
+    key: 'pheras',
+    number: 13,
+    name: 'Pheras',
+    sanskrit: 'सप्तपदी व सात फेरे (अग्नि परिक्रमा)',
+    phase: 'Wedding Day',
+    day: 'Day 3',
+    date: 'Saturday, 6 March 2027',
+    time: '8:30 PM',
+    venue: 'Golden Agni Mandap, Mount Kailash',
+    attire: 'Bridal Crimson Silk with Gold Border & Sacred Dupatta',
+    tagline: 'Seven Sacred Steps Around the Immortal Vedic Fire',
+    blurb: 'Seven sacred vows of food, strength, prosperity, wisdom, progeny, seasons, and eternal companionship.',
+    description:
+      'Shiv and Parvati walk seven sacred steps together around the blazing Vedic fire, sealing their vows to uphold Dharma, Artha, Kama, and Moksha across all cycles of creation, followed by the sacred Sindoor Daan and Mangalsutra Dharana.',
+    image: '/images/event_pheras.jpg',
+    accent: 'from-[#B22222]/50',
+    rituals: [
+      'Agni Pradakshina (Seven sacred rounds around the immortal flame)',
+      'Saptapadi vows recited for sustenance, strength & spiritual union',
+      'Sindoor Daan on Goddess Parvati’s maang by Mahadev',
+      'Tying of the golden Mangalsutra with sacred black beads',
+    ],
+    mantra: 'सखा सप्तपदा भव । सख्यं ते गमेयम् । सख्यं ते मा योषाः । सख्यं मे मा योष्ठाः ॥',
+  },
+  {
+    key: 'vidai',
+    number: 14,
+    name: 'Vidai',
+    sanskrit: 'विदाई संस्कार (मातृकुल विदाई व आशीर्वाद)',
+    phase: 'Post-Wedding',
+    day: 'Day 4',
+    date: 'Sunday, 7 March 2027',
+    time: '6:30 AM · Sunrise',
+    venue: 'Eastern Gates of Himavan Palace',
+    attire: 'Royal Ruby & Gold Zari Pattu Silk with Bridal Veil',
+    tagline: 'Tears of Devotion & Sacred Himalayan Farewell',
+    blurb: 'With blessings and tears of deep joy, Queen Mena and King Himavat bid farewell to Parvati as she ascends to Kailash.',
+    description:
+      'An emotionally profound ritual where Goddess Parvati throws handfuls of sacred rice and flowers behind her, blessing her parents’ kingdom with eternal abundance before departing on the flower-decked celestial chariot beside Mahadev.',
+    image: '/images/event_vidai.jpg',
+    accent: 'from-[#7A1521]/45',
+    rituals: [
+      'Rice tossing (Akshata Daan) wishing eternal prosperity to maternal home',
+      'Heartfelt blessings from King Himavat, Queen Mena and sisters',
+      'Boarding the celestial lotus chariot led by Nandi bull',
+      'Devas and sages chanting Shantimukta blessings as the chariot departs',
+    ],
+    mantra: 'ॐ द्यौः शान्तिरन्तरिक्षं शान्तिः पृथिवी शान्तिरापः शान्तिरोषधयः शान्तिः । वनस्पतयः शान्तिर्विश्वे देवाः शान्तिः ॥',
+  },
+  {
+    key: 'reception',
+    number: 15,
+    name: 'Reception',
+    sanskrit: 'महा भोज व आशीर्वाद (कैलाश रिसेप्शन)',
+    phase: 'Post-Wedding',
+    day: 'Day 4',
+    date: 'Sunday, 7 March 2027',
+    time: '7:30 PM Onwards',
+    venue: 'Grand Crystal Pavilion, Mount Kailash Peak',
+    attire: 'Royal Emerald, Velvet Crimson & Pure Gold Brocade',
+    tagline: 'Grand Cosmic Reception, Devotee Blessings & Feast',
+    blurb: 'A majestic evening feast at Kailash welcoming all 14 realms to congratulate the divine newlyweds with music and banquet.',
+    description:
+      'The grand celebratory reception at Mount Kailash where all deities, rishis, earthly kings, and humble devotees are seated together to receive the darshan and blessings of Lord Shiva and Goddess Parvati, followed by an ambrosial 108-dish Mahaprasad banquet.',
+    image: '/images/event_reception.jpg',
+    accent: 'from-[#8B1E2B]/50',
+    rituals: [
+      'Grand royal entry of the newlyweds onto the golden Simhasana',
+      'Darshan and blessings ceremony for all visiting worlds and devotees',
+      'Mahaprasad 108-course Vedic satvik banquet prepared by Annapurna',
+      'Celestial fireworks lighting up the snow peaks of Kailash',
+    ],
+    mantra: 'ॐ अन्नपर्णे सदापूर्णे शङ्करप्राणवल्लभे । ज्ञानवैराग्यसिद्ध्यर्थं भिक्षां देहि च पार्वति ॥ ॐ पूर्णमदः पूर्णमिदम् ॥',
+  },
+];
