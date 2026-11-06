@@ -49,8 +49,7 @@ export const ALL_15_EVENTS: CeremonyEvent[] = [
     attire: 'Sacred Crimson & Raw Ivory Silk',
     tagline: 'Sealing the Auspicious Celestial Alliance',
     blurb: 'King Himavat and the Sapta Rishis formalize the eternal alliance, presenting holy coconuts, betel leaves, and gemstones to Mahadev.',
-    description:
-      'The sacred ceremony marking the formal sealing of the alliance between the House of Himavat and Lord Shiva. Sages Agastya and Vashistha chant the auspicious Vedic Sankalpa, blessing the cosmic bride and groom with divine harmony.',
+    description: '',
     image: '/images/event_roka.webp',
     accent: 'from-[#8B1E2B]/45',
     rituals: [
@@ -74,8 +73,7 @@ export const ALL_15_EVENTS: CeremonyEvent[] = [
     attire: 'Coral Peach & Sandalwood Brocade',
     tagline: 'Gifts of Prosperity, Silver & Mountain Nectar',
     blurb: 'The auspicious procession bearing royal silver platters of rare fruits, silk sarees, and temple jewelry for Goddess Parvati.',
-    description:
-      'Family members and devas present 108 silver thalis loaded with sacred treasures of the cosmos — Kashmiri walnuts, pomegranates, gold-woven silks, divine perfumes, and celestial ornaments consecrated at sacred shrines.',
+    description: '',
     image: '/images/event_shagun.webp',
     accent: 'from-[#B37E28]/45',
     rituals: [
@@ -99,8 +97,7 @@ export const ALL_15_EVENTS: CeremonyEvent[] = [
     attire: 'Royal Ruby & Gold Zari Angavastram',
     tagline: 'Anointing the Groom with Sandalwood & Vibhuti',
     blurb: 'King Himavat applies the sacred kumkum, chandan and akshata upon Lord Shiva’s forehead, formally honoring Him as the bridegroom.',
-    description:
-      'With great reverence, King Himavat and the royal Himalayan court travel to Mount Kailash. The groom is seated on a tiger-skin crystal asana and anointed with sacred Kashmiri saffron, Chandan, and vibhuti, presenting royal robes and the jewel-studded staff.',
+    description: '',
     image: '/images/event_tilak.webp',
     accent: 'from-[#7A1521]/45',
     rituals: [
@@ -124,8 +121,7 @@ export const ALL_15_EVENTS: CeremonyEvent[] = [
     attire: 'Midnight Sapphire & Diamond Zardozi',
     tagline: 'Exchange of Sacred Celestial Rings & Vows',
     blurb: 'Under a canopy of shimmering Himalayan constellations, Shiv and Parvati exchange consecrated rings and pledge eternal companionship.',
-    description:
-      'The cosmic ring exchange where Lord Shiva presents a sacred ring forged of celestial Chintamani jewel and Goddess Parvati places a sacred diamond band upon Mahadev’s finger. The heavens shower glowing Parijata petals.',
+    description: '',
     image: '/images/event_engagement.webp',
     accent: 'from-[#1E3A8A]/45',
     rituals: [
@@ -149,8 +145,7 @@ export const ALL_15_EVENTS: CeremonyEvent[] = [
     attire: 'Sunlit Turmeric Yellow & Saffron Silk',
     tagline: 'Golden Turmeric, Sandalwood & Mountain Saffron',
     blurb: 'Aromatic ubtan paste prepared with Himalayan turmeric and 7 holy rivers is joyously applied to the divine couple.',
-    description:
-      'The vibrant purification ceremony where divine ubtan made of wild mountain turmeric root, Kashmiri saffron, crushed sandalwood, and rose petals is applied to Shiva and Parvati by celestial sisters and apsaras, accompanied by festive folk songs.',
+    description: '',
     image: '/images/event_haldi.webp',
     accent: 'from-[#B8860B]/45',
     rituals: [
@@ -174,8 +169,7 @@ export const ALL_15_EVENTS: CeremonyEvent[] = [
     attire: 'Magenta, Bandhani & Gotapatti Silk',
     tagline: 'Maternal Family Blessings & Royal Silk Gifts',
     blurb: 'Devi Mena’s maternal family arrives with ceremonial chariots bearing royal wedding trousseau, jewels, and blessings.',
-    description:
-      'The heartfelt Mayra (Bhaat) ritual where maternal deities and uncles welcome Queen Mena and Goddess Parvati with traditional chunri, pure zari bridal silks, gold mangalsutras, and sweet mawa delicacies, ensuring immense prosperity for the wedding.',
+    description: '',
     image: '/images/event_mayra.webp',
     accent: 'from-[#9B1D50]/45',
     rituals: [
@@ -199,8 +193,7 @@ export const ALL_15_EVENTS: CeremonyEvent[] = [
     attire: 'Emerald Forest Green & Royal Gold Brocade',
     tagline: 'Sacred Henna with Damru, Crescent Moon & Lotus',
     blurb: 'Celestial artists adorn Parvati’s palms and feet with aromatic henna infused with cloves, eucalyptus, and cosmic symbols.',
-    description:
-      'A joyous afternoon of music and henna artistry. Goddess Parvati’s palms are delicately adorned with sacred iconography — the sacred Om, Shiva’s crescent moon, the Trishul, and blooming lotuses, hiding Mahadev’s name in the intricate lace.',
+    description: '',
     image: '/images/event_mehendi.webp',
     accent: 'from-[#0F5132]/45',
     rituals: [
@@ -224,8 +217,7 @@ export const ALL_15_EVENTS: CeremonyEvent[] = [
     attire: 'Glamorous Champagne Gold & Velvet Black',
     tagline: 'Celestial Ambrosia, Soma Ras & Music Night',
     blurb: 'An elegant twilight soirée beside Lake Mansarovar serving divine Soma Ras, nectar cocktails, and live jazz-fusion ragas.',
-    description:
-      'A glamorous evening celebration uniting devas, yakshas, and devotees with sparkling ambrosial cocktails, golden torches reflecting on the crystalline alpine lake, and enchanting fusion melodies under the Himalayan twilight.',
+    description: '',
     image: '/images/event_cocktail.webp',
     accent: 'from-[#3B1259]/45',
     rituals: [
@@ -249,8 +241,7 @@ export const ALL_15_EVENTS: CeremonyEvent[] = [
     attire: 'Midnight Royal Blue & Shimmering Silver Zari',
     tagline: 'Gandharva Symphony, Sitar Jugalbandi & Tandava',
     blurb: 'Gandharvas play divine veenas, Narada strums his tambura, and Lord Shiva performs the joyful Ananda Tandava.',
-    description:
-      'The grand musical extravaganza celebrating eternal love. Families engage in friendly musical antakshari, celestial apsaras perform classical dance dramas recounting the Shiva-Parvati story, and all cosmos dances in boundless joy.',
+    description: '',
     image: '/images/event_sangeet.webp',
     accent: 'from-[#1E3A8A]/45',
     rituals: [
@@ -274,8 +265,7 @@ export const ALL_15_EVENTS: CeremonyEvent[] = [
     attire: 'Regal Ivory Silk Sherwani, Gold Dhoti & Royal Safa',
     tagline: 'Cosmic Procession of Devas, Rishis, Nandi & Ganas',
     blurb: 'Lord Shiva rides the sacred bull Nandi accompanied by Brahma, Vishnu, Indra, ganas, and dancing ascetics.',
-    description:
-      'The most magnificent wedding procession in cosmic history. Mahadev, radiantly handsome with the crescent moon glowing in his locks, rides decorated Nandi bull, flanked by Lord Vishnu on Garuda, Lord Brahma on Hamsa, celestial elephants, and joyous dancing Ganas.',
+    description: '',
     image: '/images/event_baraat.webp',
     accent: 'from-[#8B1E2B]/50',
     rituals: [
@@ -299,8 +289,7 @@ export const ALL_15_EVENTS: CeremonyEvent[] = [
     attire: 'Bridal Crimson Lehenga & Ivory Royal Silk Angavastram',
     tagline: 'Sacred Floral Garland Exchange Under Flower Shower',
     blurb: 'Amidst raining Parijata petals, Shiv and Parvati garland each other, declaring their eternal cosmic choice.',
-    description:
-      'As the sun sets over the snowy peaks, Lord Shiva and Goddess Parvati meet on the flower-decked elevated mandap. With smiles of boundless devotion, they exchange celestial white lotus and red rose garlands while devas sound the Dundubhi drums.',
+    description: '',
     image: '/images/event_varmala.webp',
     accent: 'from-[#C29B38]/50',
     rituals: [
@@ -324,8 +313,7 @@ export const ALL_15_EVENTS: CeremonyEvent[] = [
     attire: 'Pure Gold Zari Crimson Lehenga & Pitambar Silk Dhoti',
     tagline: 'Vedic Vivaha Sanctified by Brahma, Vishnu & Agni',
     blurb: 'Lord Brahma officiates as chief priest, Lord Vishnu performs Kanyadaan, and the cosmic wedding vows are solemnized.',
-    description:
-      'The supreme Vedic ceremony where King Himavat and Queen Mena, alongside Lord Vishnu and Goddess Lakshmi, bestow Devi Parvati’s hand upon Lord Shiva in Kanyadaan. Lord Shiva holds Parvati’s hand in Panigrahana with eternal reverence.',
+    description: '',
     image: '/images/event_wedding.webp',
     accent: 'from-[#8B1E2B]/55',
     rituals: [
@@ -349,8 +337,7 @@ export const ALL_15_EVENTS: CeremonyEvent[] = [
     attire: 'Bridal Crimson Silk with Gold Border & Sacred Dupatta',
     tagline: 'Seven Sacred Steps Around the Immortal Vedic Fire',
     blurb: 'Seven sacred vows of food, strength, prosperity, wisdom, progeny, seasons, and eternal companionship.',
-    description:
-      'Shiv and Parvati walk seven sacred steps together around the blazing Vedic fire, sealing their vows to uphold Dharma, Artha, Kama, and Moksha across all cycles of creation, followed by the sacred Sindoor Daan and Mangalsutra Dharana.',
+    description: '',
     image: '/images/event_pheras.webp',
     accent: 'from-[#B22222]/50',
     rituals: [
@@ -374,8 +361,7 @@ export const ALL_15_EVENTS: CeremonyEvent[] = [
     attire: 'Royal Ruby & Gold Zari Pattu Silk with Bridal Veil',
     tagline: 'Tears of Devotion & Sacred Himalayan Farewell',
     blurb: 'With blessings and tears of deep joy, Queen Mena and King Himavat bid farewell to Parvati as she ascends to Kailash.',
-    description:
-      'An emotionally profound ritual where Goddess Parvati throws handfuls of sacred rice and flowers behind her, blessing her parents’ kingdom with eternal abundance before departing on the flower-decked celestial chariot beside Mahadev.',
+    description: '',
     image: '/images/event_vidai.webp',
     accent: 'from-[#7A1521]/45',
     rituals: [
@@ -399,8 +385,7 @@ export const ALL_15_EVENTS: CeremonyEvent[] = [
     attire: 'Royal Emerald, Velvet Crimson & Pure Gold Brocade',
     tagline: 'Grand Cosmic Reception, Devotee Blessings & Feast',
     blurb: 'A majestic evening feast at Kailash welcoming all 14 realms to congratulate the divine newlyweds with music and banquet.',
-    description:
-      'The grand celebratory reception at Mount Kailash where all deities, rishis, earthly kings, and humble devotees are seated together to receive the darshan and blessings of Lord Shiva and Goddess Parvati, followed by an ambrosial 108-dish Mahaprasad banquet.',
+    description: '',
     image: '/images/event_reception.webp',
     accent: 'from-[#8B1E2B]/50',
     rituals: [

@@ -228,9 +228,7 @@ export const CeremoniesModal: React.FC<CeremoniesModalProps> = ({
                   </div>
                 </div>
 
-                <p className="mt-3.5 font-cormorant text-base text-[#3E2718] leading-relaxed">
-                  {cur.description}
-                </p>
+
               </div>
             </div>
           </div>
