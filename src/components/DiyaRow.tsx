@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import confetti from 'canvas-confetti';
 import { Sparkles, Flame, RotateCcw } from 'lucide-react';
 import { LotusMotif } from './Decorations';
-import royalDiyaImg from '../assets/images/royal_diya.png';
+import royalDiyaImg from '../assets/images/royal_diya.webp';
 
 export const DiyaRow: React.FC = () => {
   // Lamp starts UNLIT so user can tap it to light the flame
@@ -95,7 +95,7 @@ export const DiyaRow: React.FC = () => {
           <div className="relative w-56 h-56 sm:w-64 sm:h-64 aspect-square mx-auto flex items-center justify-center">
             {/* The Diya Bowl Image (with clean transparent background) */}
             <img
-              src={royalDiyaImg || '/images/royal_diya.png'}
+              src={royalDiyaImg || '/images/royal_diya.webp'}
               alt="Ornate Royal Diya Lamp Bowl"
               className="w-full h-full object-contain select-none pointer-events-none filter drop-shadow-[0_8px_16px_rgba(138,93,40,0.22)] transition-transform duration-500 group-hover/diya:scale-[1.02]"
               draggable={false}

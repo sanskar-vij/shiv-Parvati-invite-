@@ -7,7 +7,7 @@ export const weddingCardsData: CardData[] = [
     title: 'Shiv & Parvati',
     subtitle: 'The Divine Wedding',
     category: 'Sacred Invitation',
-    image: '/images/card1_hero.jpg',
+    image: '/images/card1_hero.webp',
     description:
       'With the supreme grace of the Supreme Cosmos, we humbly invite all Devas, Rishis, Gandharvas, and earthly devotees to witness the sacred union of Mahadev Lord Shiva and Jagatjanani Goddess Parvati. Set amidst the snow-crowned peaks of Mount Kailash, this celestial marriage celebrates the eternal harmony of consciousness and energy.',
     sanskritVerse: 'वागर्थाविव सम्पृक्तौ वागर्थप्रतिपत्तये । जगतः पितरौ वन्दे पार्वतीपरमेश्वरौ ॥',
@@ -25,7 +25,7 @@ export const weddingCardsData: CardData[] = [
     title: 'Our Families',
     subtitle: 'With Blessings and Love',
     category: 'Celestial Kinship',
-    image: '/images/card2_families.jpg',
+    image: '/images/card2_families.webp',
     description:
       'The sacred wedding is graced by King Himavat (Lord of the Himalayas) and Queen Mena from the bride’s side, alongside the entire celestial realm: Lord Ganesha, Kartikeya, Lord Vishnu & Goddess Lakshmi, Lord Brahma & Goddess Saraswati, and the revered sages Agastya, Vashistha, and Narada.',
     sanskritVerse: 'त्वमेव माता च पिता त्वमेव त्वमेव बन्धुश्च सखा त्वमेव । त्वमेव विद्या द्रविणं त्वमेव त्वमेव सर्वं मम देवदेव ॥',
@@ -43,7 +43,7 @@ export const weddingCardsData: CardData[] = [
     title: 'Our Story',
     subtitle: 'A Journey of Eternal Devotion',
     category: 'Eternal Chronicle',
-    image: '/images/story_meeting.jpg',
+    image: '/images/story_meeting.webp',
     description:
       'A timeless saga of intense tapasya and unwavering devotion. After the sacrifice of Sati, Goddess Shakti took birth as Parvati, daughter of Himavat. Through thousands of years of deep meditation in the freezing snows of Kailash, she won the heart of the ascetic Mahadev, demonstrating that true love transcends all cosmic eons.',
     sanskritVerse: 'यथा नद्यः स्यन्दमानाः समुद्रेऽस्तं गच्छन्ति नामरूपे विहाय । तथा विद्वान्नामरूपाद्विमुक्तः परात्परं पुरुषमुपैति दिव्यम् ॥',
@@ -60,7 +60,7 @@ export const weddingCardsData: CardData[] = [
     title: 'Wedding Celebrations',
     subtitle: 'Sacred Ceremonies of Vivaha',
     category: 'Auspicious Rituals',
-    image: '/images/event_wedding.jpg',
+    image: '/images/event_wedding.webp',
     description:
       'A multi-day celestial festival comprising the golden Haldi purification with sacred Himalayan herbs, intricate Mehendi adorning with divine emblems, and the sacred Vivaha with Saptapadi (seven vows around the immortal Vedic fire).',
     sanskritVerse: 'सखा सप्तपदा भव । सख्यं ते गमेयम् । सख्यं ते मा योषाः । सख्यं मे मा योष्ठाः ॥',
@@ -78,7 +78,7 @@ export const weddingCardsData: CardData[] = [
     title: 'Moments of Love',
     subtitle: 'Snapshots of Divine Harmony',
     category: 'Sacred Album',
-    image: '/images/event_sangeet.jpg',
+    image: '/images/event_sangeet.webp',
     description:
       'Glimpses into the tranquil serenity and joyous celebrations shared by Shiv and Parvati — sacred tilak anointing, lantern reflections on holy Lake Mansarovar, Gandharva symphonies, and the grand celestial baraat.',
     sanskritVerse: 'शान्तं पद्मासनस्थं शशधरमुकुटं पञ्चवक्त्रं त्रिनेत्रम् । शूलं वज्रं च खड्गं परशुमभयदं दक्षभागे वहन्तम् ॥',
@@ -96,7 +96,7 @@ export const weddingCardsData: CardData[] = [
     title: 'The Wedding Venue',
     subtitle: 'Mount Kailash Mandap',
     category: 'Celestial Geography',
-    image: '/images/card6_venue.jpg',
+    image: '/images/card6_venue.webp',
     description:
       'Mount Kailash, the spiritual axis mundi of the universe (Meru Parvat), transformed into an ethereal palace of crystal quartz and golden spires. Illuminated by thousands of golden diya lamps, fragrant with incense and surrounded by cascading turquoise glacial streams.',
     sanskritVerse: 'कैलासशिखरे रम्ये नानाधातुविचित्रिते । कल्पवृक्षसमाकीर्णे दिव्यगन्धसुवासिते ॥',
@@ -114,7 +114,7 @@ export const weddingCardsData: CardData[] = [
     title: 'Join Our Celebration',
     subtitle: 'RSVP & Shower Blessings',
     category: 'Devotee Blessings',
-    image: '/images/card7_celebration.jpg',
+    image: '/images/card7_celebration.webp',
     description:
       'Your presence and sincere prayers are the greatest gift. Whether you travel through the spiritual planes of meditation or join in physical pilgrimage, your heartfelt blessings are warmly received by Lord Shiva and Goddess Parvati.',
     sanskritVerse: 'सर्वे भवन्तु सुखिनः सर्वे सन्तु निरामयाः । सर्वे भद्राणि पश्यन्तु मा कश्चिद्दुःखभाग्भवेत् ॥',
@@ -132,7 +132,7 @@ export const weddingCardsData: CardData[] = [
     title: 'Forever Together',
     subtitle: 'A Celebration of Eternal Love',
     category: 'Eternal Union',
-    image: '/images/card8_forever.jpg',
+    image: '/images/card8_forever.webp',
     description:
       'The cosmic dance of Shiva and Shakti is without beginning and without end. As the moon shines eternally over the sacred snows of Kailash, their bond reminds the entire universe that true devotion is indestructible and love is the supreme truth of existence.',
     sanskritVerse: 'ॐ पूर्णमदः पूर्णमिदं पूर्णात्पूर्णमुदच्यते । पूर्णस्य पूर्णमादाय पूर्णमेवावशिष्यते ॥',

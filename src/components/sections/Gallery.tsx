@@ -4,15 +4,15 @@ import { LotusMotif, OrnamentalDivider } from '../Decorations';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 
 const photos = [
-  { src: '/images/card1_hero.jpg', caption: 'The Divine Couple', span: 'sm:col-span-2 sm:row-span-2' },
-  { src: '/images/event_cocktail.jpg', caption: 'Moonlit Mansarovar', span: '' },
-  { src: '/images/event_mehendi.jpg', caption: 'Mehendi Adornments', span: '' },
-  { src: '/images/story_meeting.jpg', caption: 'First Offering', span: '' },
-  { src: '/images/event_varmala.jpg', caption: 'Varmala Garland Exchange', span: '' },
-  { src: '/images/card6_venue.jpg', caption: 'Kailash Mandap', span: 'sm:col-span-2' },
-  { src: '/images/event_sangeet.jpg', caption: 'Gandharva Symphony', span: '' },
-  { src: '/images/event_haldi.jpg', caption: 'Haldi Radiance', span: '' },
-  { src: '/images/card8_forever.jpg', caption: 'Forever Together', span: 'sm:col-span-2' },
+  { src: '/images/card1_hero.webp', caption: 'The Divine Couple', span: 'sm:col-span-2 sm:row-span-2' },
+  { src: '/images/event_cocktail.webp', caption: 'Moonlit Mansarovar', span: '' },
+  { src: '/images/event_mehendi.webp', caption: 'Mehendi Adornments', span: '' },
+  { src: '/images/story_meeting.webp', caption: 'First Offering', span: '' },
+  { src: '/images/event_varmala.webp', caption: 'Varmala Garland Exchange', span: '' },
+  { src: '/images/card6_venue.webp', caption: 'Kailash Mandap', span: 'sm:col-span-2' },
+  { src: '/images/event_sangeet.webp', caption: 'Gandharva Symphony', span: '' },
+  { src: '/images/event_haldi.webp', caption: 'Haldi Radiance', span: '' },
+  { src: '/images/card8_forever.webp', caption: 'Forever Together', span: 'sm:col-span-2' },
 ];
 
 export const Gallery: React.FC = () => {

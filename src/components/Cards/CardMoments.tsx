@@ -19,7 +19,7 @@ interface MemoryItem {
 const MEMORIES: MemoryItem[] = [
   {
     id: 'tilak',
-    src: '/images/event_tilak.jpg',
+    src: '/images/event_tilak.webp',
     title: 'Sacred Tilak',
     subtitle: 'Anointing of Mahadev',
     tagline: 'Vedic Saffron & Chandan Consecration',
@@ -30,7 +30,7 @@ const MEMORIES: MemoryItem[] = [
   },
   {
     id: 'mansarovar',
-    src: '/images/event_cocktail.jpg',
+    src: '/images/event_cocktail.webp',
     title: 'Mansarovar',
     subtitle: 'Sacred Lantern Waters',
     tagline: 'Reflections of Eternal Peace & Serenity',
@@ -41,7 +41,7 @@ const MEMORIES: MemoryItem[] = [
   },
   {
     id: 'sangeet',
-    src: '/images/event_sangeet.jpg',
+    src: '/images/event_sangeet.webp',
     title: 'Gandharva Symphony',
     subtitle: 'Celestial Dance of Bliss',
     tagline: 'Veenas, Flutes & Ananda Tandava',
@@ -52,7 +52,7 @@ const MEMORIES: MemoryItem[] = [
   },
   {
     id: 'baraat',
-    src: '/images/event_baraat.jpg',
+    src: '/images/event_baraat.webp',
     title: 'Divine Baraat',
     subtitle: 'Sacred Nandi Procession',
     tagline: 'Cosmic Journey Across the Heavens',

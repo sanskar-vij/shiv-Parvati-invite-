@@ -84,7 +84,7 @@ export const CardStory: React.FC<CardStoryProps> = ({ onClick }) => {
           <div className="relative w-[58%] aspect-[16/11] rounded-[24px_12px_24px_12px] p-0.5 bg-gradient-to-br from-[#D4AF37] via-[#FFF1C5] to-[#B37E28] shadow-md overflow-hidden transition-transform duration-300 group-hover:scale-[1.02]">
             <div className="w-full h-full rounded-[23px_11px_23px_11px] overflow-hidden">
               <img
-                src="/images/story_meeting.jpg"
+                src="/images/story_meeting.webp"
                 alt="A Divine Meeting"
                 className="w-full h-full object-cover object-center"
               />
@@ -122,7 +122,7 @@ export const CardStory: React.FC<CardStoryProps> = ({ onClick }) => {
           <div className="relative w-[58%] aspect-[16/11] rounded-[12px_24px_12px_24px] p-0.5 bg-gradient-to-br from-[#D4AF37] via-[#FFF1C5] to-[#B37E28] shadow-md overflow-hidden transition-transform duration-300 group-hover:scale-[1.02]">
             <div className="w-full h-full rounded-[11px_23px_11px_23px] overflow-hidden">
               <img
-                src="/images/story_lake.jpg"
+                src="/images/story_lake.webp"
                 alt="A Deeper Bond"
                 className="w-full h-full object-cover object-center"
               />
@@ -136,7 +136,7 @@ export const CardStory: React.FC<CardStoryProps> = ({ onClick }) => {
           <div className="relative w-[58%] aspect-[16/11] rounded-[24px_12px_24px_12px] p-0.5 bg-gradient-to-br from-[#D4AF37] via-[#FFF1C5] to-[#B37E28] shadow-md overflow-hidden transition-transform duration-300 group-hover:scale-[1.02]">
             <div className="w-full h-full rounded-[23px_11px_23px_11px] overflow-hidden">
               <img
-                src="/images/event_varmala.jpg"
+                src="/images/event_varmala.webp"
                 alt="A Forever Together"
                 className="w-full h-full object-cover object-center"
               />

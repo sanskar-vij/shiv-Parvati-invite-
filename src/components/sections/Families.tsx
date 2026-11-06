@@ -30,7 +30,7 @@ export const Families: React.FC = () => {
       {/* Soft band artwork */}
       <div className="absolute inset-0 overflow-hidden">
         <img
-          src="/images/card2_families.jpg"
+          src="/images/card2_families.webp"
           alt=""
           aria-hidden="true"
           className="w-full h-full object-cover object-center opacity-[0.12]"

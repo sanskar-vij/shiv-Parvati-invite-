@@ -30,7 +30,7 @@ export const CardHero: React.FC<CardHeroProps> = ({ onClick, isDetailed = false 
       {/* Main Artwork */}
       <div className="relative w-full h-[71%] overflow-hidden">
         <img
-          src="/images/card1_hero.jpg"
+          src="/images/card1_hero.webp"
           alt="Shiv & Parvati - The Divine Wedding"
           className="w-full h-full object-cover object-top transition-transform duration-700 ease-out group-hover:scale-105"
         />

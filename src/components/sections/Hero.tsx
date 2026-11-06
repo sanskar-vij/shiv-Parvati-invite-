@@ -29,7 +29,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenRSVP, onOpenVenue }) => {
         style={{ transform: `translate3d(0, ${parallax}px, 0) scale(1.08)` }}
       >
         <img
-          src="/images/card1_hero.jpg"
+          src="/images/card1_hero.webp"
           alt="Lord Shiva and Goddess Parvati beneath the full moon over Mount Kailash"
           className="w-full h-full object-cover object-center"
         />

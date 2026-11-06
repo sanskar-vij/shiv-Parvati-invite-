@@ -16,7 +16,7 @@ export const Finale: React.FC<FinaleProps> = ({ onOpenRSVP, onOpenVenue, onPrint
     <section id="forever" className="relative min-h-[92svh] flex items-center justify-center overflow-hidden bg-white">
       <div className="absolute inset-0">
         <img
-          src="/images/card8_forever.jpg"
+          src="/images/card8_forever.webp"
           alt="Shiva and Parvati watching the moon rise over Kailash"
           loading="lazy"
           className="w-full h-full object-cover object-center"

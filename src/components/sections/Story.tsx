@@ -8,7 +8,7 @@ const milestones = [
     kicker: 'A Divine Meeting',
     title: 'Devotion in the Kailash Forest',
     text: 'Sent by the sages, the young Parvati first serves the meditating ascetic with bilva leaves and mountain blooms. Service becomes devotion; devotion becomes love.',
-    image: '/images/story_meeting.jpg',
+    image: '/images/story_meeting.webp',
     verse: 'सा ध्यायति सदा भक्त्या — She meditates upon Him with unwavering devotion.',
   },
   {
@@ -16,7 +16,7 @@ const milestones = [
     kicker: 'A Deeper Bond',
     title: 'Tapasya by Lake Mansarovar',
     text: 'For a thousand years she endures the snows. Disguised sages test her resolve; Mahadev himself arrives, moved at last, and accepts her as Ardhangini — half of his own being.',
-    image: '/images/story_lake.jpg',
+    image: '/images/story_lake.webp',
     verse: 'अर्धनारीश्वरः — The Lord whose half is the Goddess.',
   },
   {
@@ -24,7 +24,7 @@ const milestones = [
     kicker: 'A Forever Together',
     title: 'The Cosmic Union',
     text: 'Blessed by Brahma, witnessed by Vishnu and all of creation, Shiva and Shakti are united — consciousness and energy rejoined, and the universe blooms once more.',
-    image: '/images/event_pheras.jpg',
+    image: '/images/event_pheras.webp',
     verse: 'शिवः शक्त्या युतो यत्र तत्र भति — Where Shiva is united with Shakti, there alone is power.',
   },
 ];

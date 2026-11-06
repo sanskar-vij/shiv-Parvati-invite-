@@ -80,7 +80,7 @@ export const CardRSVP: React.FC<CardRSVPProps> = ({ onClick, onSubmitBlessing })
       {/* Shiv & Parvati Blessing Artwork */}
       <div className="relative w-full h-[52%] overflow-hidden">
         <img
-          src="/images/card7_celebration.jpg"
+          src="/images/card7_celebration.webp"
           alt="Shiv and Parvati Showering Blessings"
           className="w-full h-full object-cover object-top transition-transform duration-700 ease-out group-hover:scale-105"
         />

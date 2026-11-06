@@ -119,7 +119,7 @@ END:VCALENDAR`;
           {/* Visual Showcase Banner */}
           <div className="relative h-64 sm:h-80 rounded-xl overflow-hidden border border-[#D4AF37] shadow-xl">
             <img
-              src="/images/card6_venue.jpg"
+              src="/images/card6_venue.webp"
               alt="Mount Kailash Celestial Palace"
               className="w-full h-full object-cover object-center"
             />

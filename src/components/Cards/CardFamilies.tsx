@@ -55,7 +55,7 @@ export const CardFamilies: React.FC<CardFamiliesProps> = ({ onClick }) => {
       {/* Main Celestial Gathering Artwork */}
       <div className="relative w-full h-[78%] overflow-hidden">
         <img
-          src="/images/card2_families.jpg"
+          src="/images/card2_families.webp"
           alt="Shiv and Parvati surrounded by holy deities and family in Kailash"
           className="w-full h-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105"
         />

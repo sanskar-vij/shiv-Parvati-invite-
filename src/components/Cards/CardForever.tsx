@@ -31,7 +31,7 @@ export const CardForever: React.FC<CardForeverProps> = ({ onClick }) => {
       <div className="relative w-full h-[76%] overflow-hidden">
         {/* Background Painting - Clean, serene, high-resolution Vedic Darbar */}
         <img
-          src="/images/card8_forever.jpg"
+          src="/images/card8_forever.webp"
           alt="Shiv & Parvati Forever Together under Mount Kailash Full Moon"
           className="w-full h-full object-cover object-center select-none"
           draggable={false}

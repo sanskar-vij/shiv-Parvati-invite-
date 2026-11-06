@@ -47,7 +47,7 @@ export const CardVenue: React.FC<CardVenueProps> = ({ onClick, onOpenMap }) => {
       {/* Celestial Temple Palace Artwork */}
       <div className="relative w-full h-[58%] overflow-hidden">
         <img
-          src="/images/card6_venue.jpg"
+          src="/images/card6_venue.webp"
           alt="The Divine Wedding Palace of Mount Kailash"
           className="w-full h-full object-cover object-top transition-transform duration-700 ease-out group-hover:scale-105"
         />

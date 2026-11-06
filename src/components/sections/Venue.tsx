@@ -37,7 +37,7 @@ export const Venue: React.FC<VenueProps> = ({ onOpenVenue, onDownloadCalendar })
           <Reveal direction="left" className="lg:col-span-7 h-full">
             <figure className="group relative h-full min-h-[320px] rounded-2xl overflow-hidden border border-[#D4AF37]/60 vintage-shadow-lg bg-white">
               <img
-                src="/images/card6_venue.jpg"
+                src="/images/card6_venue.webp"
                 alt="The golden celestial palace mandap on Mount Kailash"
                 loading="lazy"
                 className="absolute inset-0 w-full h-full object-cover object-center transition-transform duration-[1400ms] ease-out group-hover:scale-105"

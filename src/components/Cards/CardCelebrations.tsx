@@ -57,7 +57,7 @@ export const CardCelebrations: React.FC<CardCelebrationsProps> = ({ onClick, onS
           }}
         >
           <img
-            src="/images/event_haldi.jpg"
+            src="/images/event_haldi.webp"
             alt="Haldi Ceremony"
             className="w-full h-full object-cover object-center"
           />
@@ -80,7 +80,7 @@ export const CardCelebrations: React.FC<CardCelebrationsProps> = ({ onClick, onS
           }}
         >
           <img
-            src="/images/event_mehendi.jpg"
+            src="/images/event_mehendi.webp"
             alt="Mehendi Ceremony"
             className="w-full h-full object-cover object-center"
           />
@@ -103,7 +103,7 @@ export const CardCelebrations: React.FC<CardCelebrationsProps> = ({ onClick, onS
           }}
         >
           <img
-            src="/images/event_wedding.jpg"
+            src="/images/event_wedding.webp"
             alt="Vivaha Wedding Ceremony"
             className="w-full h-full object-cover object-center"
           />
