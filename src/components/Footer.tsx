@@ -94,6 +94,18 @@ export const Footer: React.FC<FooterProps> = ({
           <p className="font-cinzel text-[9px] text-[#B8860B] tracking-widest uppercase mt-1.5">
             ॐ नमः शिवाय · ॐ पार्वत्यै नमः · शुभं भवतु
           </p>
+          <div className="mt-3 flex items-center justify-center gap-2">
+            <span className="h-[1px] w-8 hairline-gold" />
+            <a
+              href="https://patrikastudio.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-cinzel text-[10px] sm:text-[11px] tracking-[0.22em] uppercase text-[#8A5D28] hover:text-[#8B1E2B] transition-colors underline decoration-[#D4AF37]/50 underline-offset-4"
+            >
+              Designed by Patrika Studio
+            </a>
+            <span className="h-[1px] w-8 hairline-gold" />
+          </div>
         </div>
       </div>
     </footer>

@@ -291,13 +291,25 @@ export function App() {
       </main>
 
       {/* Closing line */}
-      <footer className="relative z-10 text-center px-6 pt-4 pb-12">
+      <footer className="relative z-10 text-center px-6 pt-4 pb-14">
         <p className="font-cormorant text-sm text-[#8A5D28]/80 italic">
           Shiv &amp; Parvati · A Celebration of Eternal Love
         </p>
         <p className="mt-1.5 font-cinzel text-[9px] text-[#B8860B] tracking-[0.2em] uppercase">
           ॐ नमः शिवाय · सदा शिवो रक्षतु · ॐ शुभं भवतु
         </p>
+        <div className="mt-4 pt-3 flex items-center justify-center gap-2">
+          <span className="h-[1px] w-8 hairline-gold" />
+          <a
+            href="https://patrikastudio.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-cinzel text-[10px] sm:text-[11px] tracking-[0.22em] uppercase text-[#8A5D28] hover:text-[#8B1E2B] transition-colors underline decoration-[#D4AF37]/50 underline-offset-4"
+          >
+            Designed by Patrika Studio
+          </a>
+          <span className="h-[1px] w-8 hairline-gold" />
+        </div>
       </footer>
 
       {/* Card-linked popups */}
