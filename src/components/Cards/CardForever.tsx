@@ -79,6 +79,21 @@ export const CardForever: React.FC<CardForeverProps> = ({ onClick }) => {
         <p className="font-cormorant italic text-xs text-[#8A5D28] mt-0.5">
           ॐ नमः शिवाय · सदा शिवो रक्षतु · ॐ शुभं भवतु
         </p>
+
+        {/* Brand line */}
+        <div className="mt-1.5 flex items-center justify-center gap-1.5">
+          <span className="h-[0.5px] w-3.5 bg-[#C29B38]/50" />
+          <a
+            href="https://patrikastudio.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={(e) => e.stopPropagation()}
+            className="font-cinzel text-[7px] sm:text-[8px] tracking-[0.16em] uppercase text-[#8A5D28] hover:text-[#8B1E2B] transition-colors underline decoration-[#D4AF37]/50 underline-offset-2 pointer-events-auto"
+          >
+            Designed by Patrika Studio
+          </a>
+          <span className="h-[0.5px] w-3.5 bg-[#C29B38]/50" />
+        </div>
       </div>
 
       {/* Gentle border sheen on hover */}
